@@ -6,7 +6,7 @@ O projeto utiliza uma identidade visual inspirada no espaço, com fundo estrelad
 
 🔗 **Portfólio online:** [Acessar o site](https://portfolioiuri.vercel.app/)
 
-💻 **Repositório:** [GitHub — iuri-portfolio](https://github.com/Iuri-alt/iuri-portfolio)
+💻 **Repositório:** [GitHub — iuri-portfolio](https://github.com/Iuri-alt/Portfolio)
 
 ---
 
