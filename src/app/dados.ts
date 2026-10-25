@@ -46,20 +46,20 @@ const GH6 = 'https://github.com/Iuri-alt/cafe-aurora';
 export const PROJETOS = [
   { icone: '🎙️', nome: 'Voxify', tag: 'SaaS',
     desc: 'Plataforma responsiva de transcrição de áudio em tempo real com Azure Speech. Dashboard para upload, gerenciamento e controle de conteúdo.',
-    tech: ['Azure Speech', 'Dashboard', 'API'], url: GH1 + 'Voxify' },
+    tech: ['Azure Speech', 'Dashboard', 'API'], url: GH1},
   { icone: '🎵', nome: 'Luma App', tag: 'Mobile',
     desc: 'App multiplataforma para tocar músicas locais do dispositivo. Backend FastAPI e frontend Flutter, com foco em organização da biblioteca.',
-    tech: ['Flutter', 'FastAPI', 'Python'], url: GH2 + 'Luma-App' },
+    tech: ['Flutter', 'FastAPI', 'Python'], url: GH2},
   { icone: '💸', nome: 'Entrix', tag: 'Finanças',
     desc: 'Gerenciamento financeiro e organização de dados. Frontend e backend integrados via APIs REST, com deploy em nuvem (Render).',
-    tech: ['REST', 'Render', 'SQL'], url: GH3 + 'Entrix' },
+    tech: ['REST', 'Render', 'SQL'], url: GH3},
   { icone: '⛅', nome: 'Weather App', tag: 'Web - Consumo de API',
     desc: 'Aplicação web em JavaScript que consome APIs REST, com interface em HTML5 e CSS3.',
-    tech: ['JavaScript', 'HTML5', 'CSS3'], url: GH4 + 'Weather-App' },
+    tech: ['JavaScript', 'HTML5', 'CSS3'], url: GH4},
   { icone: '🤲', nome: 'Purehands', tag: 'Auditoria',
-    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH5 + 'Purehands' },
+    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH5},
   { icone: '☕', nome: 'Cafe-aurora', tag: 'Landing-page',
-    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH6 + 'Cafe-aurora' },
+    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH6},
 ];
 
 export const TAREFAS = [
