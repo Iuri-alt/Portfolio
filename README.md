@@ -4,7 +4,7 @@ Portfólio pessoal desenvolvido com **Angular, TypeScript, HTML e CSS**, criado 
 
 O projeto utiliza uma identidade visual inspirada no espaço, com fundo estrelado, animações, efeitos de profundidade e personalização de cores para proporcionar uma experiência visual diferenciada.
 
-🔗 **Portfólio online:** [Acessar o site](https://iuri-alt.github.io/iuri-portfolio/)
+🔗 **Portfólio online:** [Acessar o site](https://portfolioiuri.vercel.app/)
 
 💻 **Repositório:** [GitHub — iuri-portfolio](https://github.com/Iuri-alt/iuri-portfolio)
 
