@@ -104,28 +104,6 @@ ng build
 
 Os arquivos de produção são gerados no diretório de saída configurado pelo projeto, normalmente dentro de `dist/`.
 
-## 🌐 Publicação no GitHub Pages
-
-O portfólio possui um endereço de publicação documentado no GitHub Pages.
-
-Para publicar ou atualizar o site, o manual utiliza o seguinte comando:
-
-```bash
-ng deploy --base-href=/iuri-portfolio/
-```
-
-O parâmetro `--base-href` configura o caminho-base da aplicação para o endereço do repositório no GitHub Pages.
-
-Antes da publicação:
-
-1. Confirme que o projeto compila corretamente.
-2. Verifique se o comando `ng deploy` está disponível e se o pacote de deploy necessário está configurado.
-3. Confira o nome do repositório e o valor de `--base-href`.
-4. No GitHub, acesse **Settings → Pages** e configure a publicação pela branch `gh-pages`, na pasta `/ (root)`, conforme o manual.
-5. Aguarde a publicação e teste o site.
-
-**URL de produção:** https://iuri-alt.github.io/iuri-portfolio/
-
 ## 🧩 Projetos apresentados
 
 O portfólio documenta seis projetos na seção de projetos:
@@ -188,7 +166,7 @@ Possíveis evoluções para o projeto:
 **Iuri Antonio da Silva**
 Desenvolvedor em formação, interessado em programação, engenharia e desenvolvimento de soluções tecnológicas.
 - GitHub: [@Iuri-alt](https://github.com/Iuri-alt)
-- Portfólio: [iuri-portfolio](https://iuri-alt.github.io/iuri-portfolio/)
+- Portfólio: [iuri-portfolio](https://portfolioiuri.vercel.app/)
 ---
 <p align="center">
   Desenvolvido com dedicação, criatividade e Angular. 🚀
