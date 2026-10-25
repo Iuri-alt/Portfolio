@@ -36,24 +36,30 @@ export const STACK = [
     itens: ['APIs REST', 'Azure Speech', 'Render', 'Git', 'GitHub', 'Linux', 'Markdown'] },
 ];
 
-const GH = 'https://github.com/Iuri-alt/';
+const GH1 = 'https://github.com/Iuri-alt/Voxify';
+const GH2 = 'https://github.com/Iuri-alt';
+const GH3 = 'https://github.com/Iuri-alt/entrix_app';
+const GH4 = 'https://github.com/Iuri-alt/weather-app';
+const GH5 = 'https://github.com/Iuri-alt/purehands';
+const GH6 = 'https://github.com/Iuri-alt/cafe-aurora';
+
 export const PROJETOS = [
   { icone: '🎙️', nome: 'Voxify', tag: 'SaaS',
     desc: 'Plataforma responsiva de transcrição de áudio em tempo real com Azure Speech. Dashboard para upload, gerenciamento e controle de conteúdo.',
-    tech: ['Azure Speech', 'Dashboard', 'API'], url: GH + 'Voxify' },
+    tech: ['Azure Speech', 'Dashboard', 'API'], url: GH1 + 'Voxify' },
   { icone: '🎵', nome: 'Luma App', tag: 'Mobile',
     desc: 'App multiplataforma para tocar músicas locais do dispositivo. Backend FastAPI e frontend Flutter, com foco em organização da biblioteca.',
-    tech: ['Flutter', 'FastAPI', 'Python'], url: GH + 'Luma-App' },
+    tech: ['Flutter', 'FastAPI', 'Python'], url: GH2 + 'Luma-App' },
   { icone: '💸', nome: 'Entrix', tag: 'Finanças',
     desc: 'Gerenciamento financeiro e organização de dados. Frontend e backend integrados via APIs REST, com deploy em nuvem (Render).',
-    tech: ['REST', 'Render', 'SQL'], url: GH + 'Entrix' },
+    tech: ['REST', 'Render', 'SQL'], url: GH3 + 'Entrix' },
   { icone: '⛅', nome: 'Weather App', tag: 'Web - Consumo de API',
     desc: 'Aplicação web em JavaScript que consome APIs REST, com interface em HTML5 e CSS3.',
-    tech: ['JavaScript', 'HTML5', 'CSS3'], url: GH + 'Weather-App' },
+    tech: ['JavaScript', 'HTML5', 'CSS3'], url: GH4 + 'Weather-App' },
   { icone: '🤲', nome: 'Purehands', tag: 'Auditoria',
-    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH + 'Purehands' },
+    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH5 + 'Purehands' },
   { icone: '☕', nome: 'Cafe-aurora', tag: 'Landing-page',
-    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH + 'Cafe-aurora' },
+    desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH6 + 'Cafe-aurora' },
 ];
 
 export const TAREFAS = [
