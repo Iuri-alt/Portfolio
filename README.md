@@ -171,6 +171,3 @@ Desenvolvedor em formação, interessado em programação, engenharia e desenvol
 <p align="center">
   Desenvolvido com dedicação, criatividade e Angular. 🚀
 </p>
-
-# Portfolio
-# Portfolio
