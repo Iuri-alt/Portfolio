@@ -1,0 +1,27 @@
+<section id="carreira" class="secao">
+  <div revelar>
+    <h2 class="titulo">Trajetória</h2>
+  </div>
+  <div class="duas">
+    <div revelar class="trabalho">
+      <div class="data">05/2023 — PRESENTE</div>
+      <div class="cargo">Assistente Administrativo</div>
+      <div class="empresa">Rede D'Or São Luiz · São Paulo, SP</div>
+      <ul>
+        @for (t of tarefas; track t) {
+          <li><span class="seta">▸</span><span>{{ t }}</span></li>
+        }
+      </ul>
+    </div>
+
+    <div revelar class="coluna">
+      @for (f of formacao; track f.titulo) {
+        <div class="curso">
+          <div class="ic">{{ f.icone }}</div>
+          <div><div class="ct">{{ f.titulo }}</div><div class="cs">{{ f.sub }}</div></div>
+        </div>
+      }
+      <div class="extra">🌐 Inglês (B1) e Espanhol intermediário (A2)</div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+.duas { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 56px; }
+.ia { color: var(--a); }
+.texto { font-size: 18px; line-height: 1.7; color: #b4bbd8; text-wrap: pretty; }
+.texto p { margin: 0 0 20px; }
+.texto p:last-child { margin: 0; }
+.cartoes { margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.cartao {
+  padding: 24px; border: 1px solid rgba(255, 255, 255, .12); border-radius: 20px;
+  background: rgba(255, 255, 255, .04); transition: border-color .25s, transform .25s;
+}
+.cartao:hover { border-color: var(--a); transform: translateY(-4px); }
+.icone { font-size: 34px; }
+.t { margin-top: 14px; font-size: 22px; font-weight: 700; }
+.s { margin-top: 4px; font-size: 14px; color: #98a0c0; }

@@ -1,0 +1,21 @@
+<section id="sobre" class="secao" style="padding-top:120px">
+  <div revelar class="duas">
+    <div>
+      <h2 class="titulo" style="margin-bottom:0">Dados, código e <span class="ia">IA</span> no mesmo foguete.</h2>
+    </div>
+    <div class="texto">
+      <p>Desenvolvedor FullStack em formação, com base sólida em HTML5, CSS3, JavaScript, Python, SQL e Flutter. Experiência prática com APIs REST, integração entre frontend e backend, e dashboards e análises de dados para apoio à decisão.</p>
+      <p>Conhecimento em IA Generativa, Machine Learning e Deep Learning. Perfil analítico, colaborativo e com forte capacidade de aprendizado contínuo.</p>
+    </div>
+  </div>
+
+  <div revelar class="cartoes">
+    @for (s of stats; track s.titulo) {
+      <div class="cartao">
+        <div class="icone">{{ s.icone }}</div>
+        <div class="t">{{ s.titulo }}</div>
+        <div class="s">{{ s.sub }}</div>
+      </div>
+    }
+  </div>
+</section>

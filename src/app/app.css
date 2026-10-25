@@ -1,0 +1,2 @@
+:host { display: block; min-height: 100vh; position: relative; overflow-x: hidden; }
+.conteudo { position: relative; z-index: 1; }

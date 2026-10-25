@@ -1,0 +1,18 @@
+canvas, .brilho, .nebulosa {
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+}
+canvas { inset: 0; width: 100%; height: 100%; }
+.brilho {
+  left: 0; top: 0;
+  width: 520px; height: 520px;
+  margin: -260px 0 0 -260px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in oklab, var(--a) 16%, transparent), transparent 65%);
+}
+.nebulosa {
+  left: -20vw; top: 30vh;
+  width: 60vw; height: 60vw;
+  background: radial-gradient(circle, color-mix(in oklab, var(--b) 14%, transparent), transparent 60%);
+}

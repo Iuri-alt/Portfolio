@@ -1,0 +1,28 @@
+<header id="top" class="hero">
+  <div>
+    <h1>Olá, eu sou <span class="aceno">👋</span><br><span class="nome">Iuri Silva</span></h1>
+
+    <div class="digita"><span class="seta">&gt;</span> {{ digitado() }}<span class="cursor"></span></div>
+
+    <p class="resumo">Desenvolvedor FullStack em transição de carreira. Construo APIs, apps e dashboards, unindo visão analítica de dados e IA ao desenvolvimento.</p>
+
+    <div class="botoes">
+      <a href="#projetos" class="btn primario">🚀 Ver projetos</a>
+      <a href="https://github.com/Iuri-alt" target="_blank" class="btn">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/iuri-silva01/" target="_blank" class="btn">LinkedIn ↗</a>
+    </div>
+  </div>
+
+  <div class="orbita">
+    <div class="planeta">IS</div>
+    @for (a of aneis; track a.inset) {
+      <div class="anel" [style.inset]="a.inset" [style.animation-duration]="a.dur" [style.animation-direction]="a.dir">
+        @for (c of a.chips; track c.label) {
+          <div class="pos" [style.left]="c.x" [style.top]="c.y">
+            <div class="chip" [style.animation-duration]="a.dur" [style.animation-direction]="a.rdir">{{ c.label }}</div>
+          </div>
+        }
+      </div>
+    }
+  </div>
+</header>

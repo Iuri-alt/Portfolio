@@ -1,0 +1,19 @@
+<section id="contato" class="secao" style="padding-top:120px; padding-bottom:60px">
+  <div revelar class="caixa">
+    <div class="anel"></div>
+    <div class="kicker">// 05 · contato</div>
+    <h2>Vamos construir algo juntos? 🛰️</h2>
+    <div class="links">
+      @for (c of contatos; track c.rotulo) {
+        <a [href]="c.url" target="_blank">
+          <span class="ic">{{ c.icone }}</span>
+          <span class="rot">{{ c.rotulo }}</span>
+          <span class="val">{{ c.valor }}</span>
+        </a>
+      }
+    </div>
+  </div>
+  <div class="rodape">
+    <span>© 2026 Iuri Antonio da Silva</span>
+  </div>
+</section>

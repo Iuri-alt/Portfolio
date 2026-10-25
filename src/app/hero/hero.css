@@ -1,0 +1,48 @@
+.hero {
+  max-width: 1180px; margin: 0 auto; padding: 72px 32px 96px; box-sizing: border-box;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 48px; align-items: center; min-height: calc(100vh - 80px);
+}
+.selo {
+  display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, .14); border-radius: 999px;
+  background: rgba(255, 255, 255, .04);
+  font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #c6ccea;
+}
+.ponto { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; animation: pulse 1.6s infinite; }
+h1 { margin: 28px 0 0; font-size: clamp(44px, 7.4vw, 104px); line-height: .95; font-weight: 700; letter-spacing: -.045em; }
+.aceno { display: inline-block; animation: wave 2.4s infinite; transform-origin: 70% 70%; }
+.nome {
+  background: linear-gradient(90deg, var(--a), var(--b), var(--a));
+  background-size: 200% auto;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  animation: shine 5s linear infinite;
+}
+.digita { margin-top: 24px; min-height: 32px; font-family: 'JetBrains Mono', monospace; font-size: clamp(16px, 2vw, 22px); color: #c6ccea; }
+.seta { color: var(--a); }
+.cursor { display: inline-block; width: 10px; height: 1.1em; margin-left: 4px; vertical-align: -3px; background: var(--a); animation: blink 1s steps(1) infinite; }
+.resumo { margin: 24px 0 0; max-width: 520px; font-size: 18px; line-height: 1.6; color: #98a0c0; text-wrap: pretty; }
+.botoes { margin-top: 36px; display: flex; gap: 12px; flex-wrap: wrap; }
+.btn { padding: 15px 25px; border-radius: 14px; border: 1px solid rgba(255, 255, 255, .2); font-weight: 500; transition: transform .2s, background .2s; }
+.btn:hover { background: rgba(255, 255, 255, .08); transform: translateY(-3px); }
+.primario { padding: 16px 26px; border: 0; background: linear-gradient(135deg, var(--a), var(--b)); color: #05060d; font-weight: 700; }
+.primario:hover { background: linear-gradient(135deg, var(--a), var(--b)); }
+
+.orbita { position: relative; width: 100%; max-width: 520px; aspect-ratio: 1; margin: 0 auto; }
+.planeta {
+  position: absolute; inset: 36%; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, var(--a), var(--b) 60%, #1a1040);
+  box-shadow: 0 0 90px color-mix(in oklab, var(--a) 50%, transparent);
+  display: flex; align-items: center; justify-content: center;
+  font-size: clamp(28px, 5vw, 48px); font-weight: 700; color: #05060d;
+  animation: floaty 6s ease-in-out infinite;
+}
+.anel { position: absolute; border: 1px dashed rgba(255, 255, 255, .2); border-radius: 50%; animation: spin linear infinite; }
+.pos { position: absolute; transform: translate(-50%, -50%); }
+.chip {
+  padding: 7px 12px; border-radius: 999px; white-space: nowrap;
+  background: rgba(10, 12, 28, .9);
+  border: 1px solid color-mix(in oklab, var(--a) 50%, transparent);
+  font-family: 'JetBrains Mono', monospace; font-size: 12px;
+  animation: spin linear infinite;
+}

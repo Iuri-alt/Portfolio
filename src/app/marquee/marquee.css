@@ -1,0 +1,12 @@
+.faixa {
+  border-block: 1px solid rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, .03);
+  overflow: hidden; padding: 18px 0;
+}
+.trilho {
+  display: flex; width: max-content; gap: 48px;
+  animation: marquee 40s linear infinite;
+  font-family: 'JetBrains Mono', monospace; font-size: 20px; color: #98a0c0;
+}
+.item { display: flex; gap: 48px; white-space: nowrap; }
+.estrela { color: var(--a); }

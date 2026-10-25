@@ -1,0 +1,13 @@
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.grupo {
+  padding: 28px; border: 1px solid rgba(255, 255, 255, .12); border-radius: 24px;
+  background: linear-gradient(160deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .02));
+}
+.icone { font-size: 30px; }
+.nome { margin: 12px 0 18px; font-size: 20px; font-weight: 700; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  padding: 7px 13px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .16);
+  font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #d6dbf2; transition: .2s;
+}
+.chip:hover { background: var(--a); color: #05060d; border-color: var(--a); }

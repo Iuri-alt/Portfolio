@@ -1,0 +1,29 @@
+nav {
+  position: sticky; top: 12px; z-index: 50;
+  margin: 12px auto 0;
+  max-width: 1180px; width: calc(100% - 32px);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  padding: 10px 12px 10px 20px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 999px;
+  background: rgba(8, 10, 22, .65);
+  backdrop-filter: blur(14px);
+  box-sizing: border-box;
+}
+.logo { font-weight: 700; font-size: 18px; letter-spacing: -.02em; }
+.logo span { color: var(--a); }
+.links { display: flex; gap: 6px; flex-wrap: wrap; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+.links a { padding: 8px 12px; border-radius: 999px; color: #98a0c0; transition: .2s; }
+.links a:hover { color: #fff; background: rgba(255, 255, 255, .08); }
+.direita { display: flex; align-items: center; gap: 8px; }
+button {
+  width: 20px; height: 20px; padding: 0; cursor: pointer;
+  border-radius: 50%; border: 2px solid rgba(255, 255, 255, .5);
+  transition: transform .2s;
+}
+button:hover { transform: scale(1.2); }
+.contato {
+  margin-left: 6px; padding: 9px 18px; border-radius: 999px;
+  background: var(--a); color: #05060d; font-weight: 700; font-size: 14px;
+}
+.contato:hover { filter: brightness(1.15); }

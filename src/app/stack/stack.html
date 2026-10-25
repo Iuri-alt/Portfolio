@@ -1,0 +1,16 @@
+<section id="stack" class="secao">
+  <div revelar>
+    <h2 class="titulo">Tecnologias</h2>
+  </div>
+  <div class="grade">
+    @for (g of grupos; track g.nome) {
+      <div revelar class="grupo">
+        <div class="icone">{{ g.icone }}</div>
+        <div class="nome">{{ g.nome }}</div>
+        <div class="chips">
+          @for (i of g.itens; track i) { <span class="chip">{{ i }}</span> }
+        </div>
+      </div>
+    }
+  </div>
+</section>

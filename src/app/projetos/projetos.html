@@ -1,0 +1,21 @@
+<section id="projetos" class="secao">
+  <div revelar>
+    <h2 class="titulo">Missões lançadas</h2>
+  </div>
+  <div class="grade">
+    @for (p of projetos; track p.nome) {
+      <a class="cartao" [href]="p.url" target="_blank" (mousemove)="mover($event)" (mouseleave)="sair($event)">
+        <div class="topo">
+          <div class="icone">{{ p.icone }}</div>
+          <span class="tag">{{ p.tag }}</span>
+        </div>
+        <div class="nome">{{ p.nome }}</div>
+        <div class="desc">{{ p.desc }}</div>
+        <div class="techs">
+          @for (t of p.tech; track t) { <span>#{{ t }}</span> }
+        </div>
+        <div class="ver">ver no GitHub ↗</div>
+      </a>
+    }
+  </div>
+</section>

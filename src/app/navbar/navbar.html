@@ -1,0 +1,18 @@
+<nav>
+  <a href="#top" class="logo">iuri<span>.dev</span></a>
+
+  <div class="links">
+    <a href="#sobre">Sobre</a>
+    <a href="#stack">Stack</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#carreira">Carreira</a>
+  </div>
+
+  <div class="direita">
+    @for (p of paletas; track p.nome; let i = $index) {
+      <button type="button" [title]="p.nome" (click)="tema.aplicar(i)"
+        [style.background]="'linear-gradient(135deg,' + p.a + ',' + p.b + ')'"></button>
+    }
+    <a href="#contato" class="contato">Contato</a>
+  </div>
+</nav>
