@@ -77,9 +77,9 @@ export const FORMACAO = [
 ];
 
 export const CONTATOS = [
-  { icone: '✉️', rotulo: 'E-mail',    valor: 'iuri3456@outlook.com', url: 'mailto:iuri3456@outlook.com' },
-  { icone: '💬', rotulo: 'WhatsApp',  valor: '11951744044',           url: 'https://wa.me/559851744044' },
-  { icone: '📸', rotulo: 'Instagram', valor: '@iuriasilva',          url: 'https://instagram.com/iuriasilva' },
-  { icone: '🐙', rotulo: 'GitHub',    valor: 'Iuri-alt',             url: 'https://github.com/Iuri-alt' },
-  { icone: '🔗', rotulo: 'LinkedIn',  valor: 'in/iuri-silva',        url: 'https://www.linkedin.com/in/iuri-silva01/' },
+  { icone: '✉️', rotulo: 'E-mail',    valor: 'Clique aqui!', url: 'mailto:iuri3456@outlook.com' },
+  { icone: '💬', rotulo: 'WhatsApp',  valor: 'Clique aqui!',           url: 'https://wa.me/559851744044' },
+  { icone: '📸', rotulo: 'Instagram', valor: 'Clique aqui!',          url: 'https://instagram.com/iuriasilva' },
+  { icone: '🐙', rotulo: 'GitHub',    valor: 'Clique aqui!',             url: 'https://github.com/Iuri-alt' },
+  { icone: '🔗', rotulo: 'LinkedIn',  valor: 'Clique aqui!',        url: 'https://www.linkedin.com/in/iuri-silva01/' },
 ];
