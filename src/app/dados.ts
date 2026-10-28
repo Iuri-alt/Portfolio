@@ -37,7 +37,7 @@ export const STACK = [
 ];
 
 const GH1 = 'https://github.com/Iuri-alt/Voxify';
-const GH2 = 'https://github.com/Iuri-alt';
+const GH2 = 'https://github.com/Iuri-alt/luma_app';
 const GH3 = 'https://github.com/Iuri-alt/entrix_app';
 const GH4 = 'https://github.com/Iuri-alt/weather-app';
 const GH5 = 'https://github.com/Iuri-alt/purehands';
