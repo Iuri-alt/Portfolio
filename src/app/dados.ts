@@ -44,21 +44,21 @@ const GH5 = 'https://github.com/Iuri-alt/purehands';
 const GH6 = 'https://github.com/Iuri-alt/cafe-aurora';
 
 export const PROJETOS = [
-  { icone: '🎙️', nome: 'Voxify', tag: 'SaaS',
+  { icone: 'Logo_Voxify.png', nome: 'Voxify', tag: 'SaaS',
     desc: 'Plataforma responsiva de transcrição de áudio em tempo real com Azure Speech. Dashboard para upload, gerenciamento e controle de conteúdo.',
     tech: ['Azure Speech', 'Dashboard', 'API'], url: GH1},
-  { icone: '🎵', nome: 'Luma App', tag: 'Mobile',
+  { icone: 'luma_logo.png', nome: 'Luma App', tag: 'Mobile',
     desc: 'App multiplataforma para tocar músicas locais do dispositivo. Backend FastAPI e frontend Flutter, com foco em organização da biblioteca.',
     tech: ['Flutter', 'FastAPI', 'Python'], url: GH2},
-  { icone: '💸', nome: 'Entrix', tag: 'Finanças',
+  { icone: 'app_icon.png', nome: 'Entrix', tag: 'Finanças',
     desc: 'Gerenciamento financeiro e organização de dados. Frontend e backend integrados via APIs REST, com deploy em nuvem (Render).',
     tech: ['REST', 'Render', 'SQL'], url: GH3},
   { icone: '⛅', nome: 'Weather App', tag: 'Web - Consumo de API',
     desc: 'Aplicação web em JavaScript que consome APIs REST, com interface em HTML5 e CSS3.',
     tech: ['JavaScript', 'HTML5', 'CSS3'], url: GH4},
-  { icone: '🤲', nome: 'Purehands', tag: 'Auditoria',
+  { icone: 'logo_sem_fundo.png', nome: 'Purehands', tag: 'Auditoria',
     desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH5},
-  { icone: '☕', nome: 'Cafe-aurora', tag: 'Landing-page',
+  { icone: 'cafe_icon.png', nome: 'Cafe-aurora', tag: 'Landing-page',
     desc: 'Projeto pessoal publicado no GitHub.', tech: ['GitHub'], url: GH6},
 ];
 
@@ -78,7 +78,7 @@ export const FORMACAO = [
 
 export const CONTATOS = [
   { icone: '✉️', rotulo: 'E-mail',    valor: 'iuri3456@outlook.com', url: 'mailto:iuri3456@outlook.com' },
-  { icone: '💬', rotulo: 'WhatsApp',  valor: '9851744044',           url: 'https://wa.me/559851744044' },
+  { icone: '💬', rotulo: 'WhatsApp',  valor: '11951744044',           url: 'https://wa.me/559851744044' },
   { icone: '📸', rotulo: 'Instagram', valor: '@iuriasilva',          url: 'https://instagram.com/iuriasilva' },
   { icone: '🐙', rotulo: 'GitHub',    valor: 'Iuri-alt',             url: 'https://github.com/Iuri-alt' },
   { icone: '🔗', rotulo: 'LinkedIn',  valor: 'in/iuri-silva',        url: 'https://www.linkedin.com/in/iuri-silva01/' },
