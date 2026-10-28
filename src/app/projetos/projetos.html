@@ -6,7 +6,13 @@
     @for (p of projetos; track p.nome) {
       <a class="cartao" [href]="p.url" target="_blank" (mousemove)="mover($event)" (mouseleave)="sair($event)">
         <div class="topo">
-          <div class="icone">{{ p.icone }}</div>
+          <div class="icone">
+            @if (p.icone.endsWith('.png')) {
+              <img [src]="p.icone" [alt]="'Logo do ' + p.nome" loading="lazy" />
+            } @else {
+              {{ p.icone }}
+            }
+          </div>
           <span class="tag">{{ p.tag }}</span>
         </div>
         <div class="nome">{{ p.nome }}</div>
